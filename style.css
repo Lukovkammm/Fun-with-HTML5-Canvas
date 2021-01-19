@@ -6,14 +6,42 @@ body {
 }
 
 h1 {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     text-align: center;
     text-transform: uppercase;
     color: #333;
 }
+
+.settings {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 5%;
+    left: 50%;
+}
+
+.settings__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+input[type=color] {
+    width: 40px;
+    height: 40px;
+    margin: 0 40px 15px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+
