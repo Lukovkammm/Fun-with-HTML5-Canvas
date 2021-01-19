@@ -9,7 +9,14 @@
 </head>
 
 <body>
-    <h1>You can draw here:</h1>
+    <div class="settings">
+        <h1>You can draw here:</h1>
+        <div class="settings__block">
+            <label for="color">Pick a color</label>
+            <input type="color" value="#DC143C" name="color" id="color">
+            <input type="range" min="1" max="100" value="20" name="size">
+        </div>
+    </div>
     <canvas id="canvas"></canvas>
     <script src="./script.js"></script>
 </body>
