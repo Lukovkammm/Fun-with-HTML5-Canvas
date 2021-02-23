@@ -3,10 +3,10 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     text-align: center;
     text-transform: uppercase;
@@ -25,11 +25,10 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: inherit;
     font-size: 20px;
 }
 
@@ -43,6 +42,12 @@ input[type=color] {
     cursor: pointer;
 }
 
+.clear {
+    font-family: inherit;
+    font-size: 20px;
+    margin: 10px 0 10px 30px;
+    padding: 10px 30px;
+}
 
 
 
