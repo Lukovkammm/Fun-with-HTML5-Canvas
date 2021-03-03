@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.settings {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 5%;
+    left: 50%;
+}
+
+.settings__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+input[type=color] {
+    width: 40px;
+    height: 40px;
+    margin: 0 40px 15px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.clear {
+    font-family: inherit;
+    font-size: 20px;
+    margin: 10px 0 10px 30px;
+    padding: 10px 30px;
+}
+
+
+
